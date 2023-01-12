@@ -31,12 +31,19 @@
     <Content Include="JavaScript.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="JavaScript1.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="logs\log.txt" />
     <Content Include="Page1.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="logs\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
